@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery a {
+    flex: 1 0 150px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#playPauseBtn {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#volumeSlider {
+    width: 80%;
+}
